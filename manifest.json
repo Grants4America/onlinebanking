@@ -1,0 +1,20 @@
+{
+  "name": "Pure Bank",
+  "short_name": "PureBank",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/bank_logo_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/bank_logo_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
