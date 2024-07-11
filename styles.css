@@ -420,6 +420,6 @@ h1 {
 }
 
 .logout {
-  position: fixed;
+  /* position: fixed; */
   float: right;
 }
