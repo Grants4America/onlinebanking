@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pure Bank - Home</title>
+    <title>Accounts</title>
     <link rel="stylesheet" href="styles.css" />
-    
-    <!-- Favicon Link -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- Font Awesome CDN for icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -221,11 +219,11 @@
             <li>
               <a href="index.html">Home</a><span class="seperator"> |</span>
             </li>
-            <!-- <li>
+            <li>
               <a href="services.html">Services</a
               ><span class="seperator"> |</span>
             </li>
-            <li><a href="about.html">About Us</a></li> -->
+            <li><a href="about.html">About Us</a></li>
           </ul>
         </nav>
       </div>
@@ -235,20 +233,20 @@
       <div class="contain">
         <h1>Accounts</h1>
         <img
-          src="images/profile2.jpg"
+          src="images/profile.jpg"
           alt="Profile"
           class="profile-img"
           onclick="toggleProfile()"
         />
         <div id="profile-info">
           <span class="close-btn" onclick="toggleProfile()">&uarr; Back</span>
-          <p><strong>Full Name:</strong> Ryan williams</p>
-          <p id="number"><strong>Contact:</strong> +1 229-601-4840</p>
+          <p><strong>Full Name:</strong> Ryan Williams</p>
+          <p id="number"><strong>Contact:</strong> +1 562-587-0197</p>
           <p><strong>Nick Name:</strong> Ryan</p>
           <p><strong>Gender:</strong> Male</p>
           <p><strong>Date of Birth:</strong> **-**-07</p>
           <p>
-            <strong>Email:</strong>ryanwilliams210964@gmail.com
+            <strong>Email:</strong> ryanwilliams2109641@gmail.com
             <i class="fa fa-check-circle verified"></i>
           </p>
           <p id="number"><strong>Account Number:</strong> 5678901234</p>
@@ -262,8 +260,8 @@
             <span class="account-id">5678901234</span>
           </p> -->
           <p>
-            <strong>Current Balance:</strong>
-            <span class="checking-balance">$ 40,000,000.00</span>
+            <strong>Checking Account:</strong>
+            <span class="checking-balance">$ 2,000,000.00</span>
             <span
               class="toggle-visibility"
               onclick="toggleVisibility('checking-balance', 'eye-icon1')"
@@ -272,14 +270,13 @@
           </p>
           <p>
             <strong>Available Balance:</strong>
-            <span class="savings-balance">$ 0.00</span>
+            <span class="savings-balance">$ 40,000,000.00</span>
             <span
               class="toggle-visibility"
               onclick="toggleVisibility('savings-balance', 'eye-icon2')"
               ><i class="fa fa-eye" id="eye-icon2"></i
             ></span>
           </p>
-        </div>
         </div>
         <div class="buttons">
           <a href="send_money.html" class="button">Send Money</a><br />
